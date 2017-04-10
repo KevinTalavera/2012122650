@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities;
 
-namespace _2012122650
+namespace Entities
 {
-    class Program
+    class TipoPlan
     {
-        static void Main(string[] args)
+        string nomPlan;
+
+        public TipoPlan(string nomPlan)
         {
+            this.nomPlan = nomPlan;
         }
     }
 }

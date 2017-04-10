@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities;
 
-namespace _2012122650
+namespace Entities
 {
-    class Program
+    class Distrito
     {
-        static void Main(string[] args)
+        string nomDistrito;
+
+        public Distrito (string nomDis)
         {
+            nomDistrito = nomDis;
         }
     }
 }

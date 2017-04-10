@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities;
 
-namespace _2012122650
+namespace Entities
 {
-    class Program
+    class Cliente
     {
-        static void Main(string[] args)
-        {
-        }
+        string nombre;
+        string Apellido;
+        int dni;
     }
 }
